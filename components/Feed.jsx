@@ -1,5 +1,6 @@
 import { SparklesIcon } from '@heroicons/react/24/outline'
 import Post from './Post'
+import Input from './Input'
 
 
 function Feed() {
@@ -77,7 +78,7 @@ function Feed() {
             <SparklesIcon className='h-5' />
            </div>
         </div>
-
+        <Input />
     {posts.map((post)=>(
         <Post post={post} key={post.id} />
     ))}
