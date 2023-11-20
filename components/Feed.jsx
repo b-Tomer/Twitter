@@ -6,6 +6,15 @@ import Input from './Input'
 function Feed() {
     const posts = [
         {
+          "id": "5",
+          "name": "Daniel White",
+          "userName": "@danielW",
+          "userImg": "https://randomuser.me/api/portraits/men/4.jpg",
+          "img": "https://plus.unsplash.com/premium_photo-1677347335105-1bd16607a25e?q=80&w=1067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "text": "Exploring new places! 🗺️ #Traveler",
+          "timeStamp": "few minutes ago"
+        },
+        {
             'id':'1',
             'name': 'Tomer Benaim',
             'userName': '@bTomer',
@@ -40,15 +49,6 @@ function Feed() {
             "img": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "text": "Just finished reading a great book! 📚 #Bookworm",
             "timeStamp": "15 hours ago"
-          },
-          {
-            "id": "5",
-            "name": "Daniel White",
-            "userName": "@danielW",
-            "userImg": "https://randomuser.me/api/portraits/men/4.jpg",
-            "img": "https://plus.unsplash.com/premium_photo-1677347335105-1bd16607a25e?q=80&w=1067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "text": "Exploring new places! 🗺️ #Traveler",
-            "timeStamp": "20 hours ago"
           },
           {
             "id": "6",
