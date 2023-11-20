@@ -12,7 +12,7 @@ import { EllipsisHorizontalCircleIcon } from '@heroicons/react/24/outline'
 
 function SideBar() {
     return (
-        <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
+        <div className="hidden sm:flex flex-col p-2 lg:items-start fixed h-full xl:ml-24">
         <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
                 <Image
                     src='https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png'
@@ -39,7 +39,7 @@ function SideBar() {
                 <img className='h-10 w-10 rounded-full lg:mr-2' src="https://avatars.githubusercontent.com/u/112409022?v=4" alt="user" />
                 <div className="leading-5 hidden xl:inline">
                     <h4 className='font-bold ' >Tomer Benaim</h4>
-                    <p className='text-gray-500 lg:mr-2'>@CodewithNextjs</p>
+                    <p className='text-gray-500 lg:mr-2'>@b-Tomer</p>
                 </div>
                 <EllipsisHorizontalCircleIcon className="h-5 xl:ml-8 hidden xl:inline" />
             </div>
