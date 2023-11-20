@@ -1,3 +1,4 @@
+import Feed from '../../components/Feed'
 import SideBar from '../../components/SideBar'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <SideBar />
 
       {/*Feed */}
+      <Feed />
 
       {/*Widgets */}
 
