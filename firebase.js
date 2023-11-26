@@ -2,13 +2,14 @@
 import { initializeApp, getApp, getApps } from "firebase/app";
 import { getFirestore } from 'firebase/firestore'
 import { getStorage } from 'firebase/storage'
+import { env } from "./next.config";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: 'AIzaSyA6Y-TkUkO_HYN-mJUpzC9ymOnjJfFSnA4',
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     authDomain: "twitter-next-ca088.firebaseapp.com",
     projectId: "twitter-next-ca088",
     storageBucket: "twitter-next-ca088.appspot.com",
