@@ -12,7 +12,7 @@ export default NextAuth({
   ],
 
   pages: {
-    signIn: "/auth/signin",
+    Signin: "/auth",
   },
 
   secret: process.env.SECRET,
@@ -23,8 +23,8 @@ export default NextAuth({
         .split(" ")
         .join("")
         .toLocaleLowerCase();
-      session.user.uid = token.sub;
-      return session;
+      session.user.uid = token.sub
+      return session
     },
   },
 });
