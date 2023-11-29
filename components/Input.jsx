@@ -6,7 +6,7 @@ export default function Input() {
             <img className='h-11 w-11 rounded-full cursor-pointer hover:brightness-95' src="https://avatars.githubusercontent.com/u/112409022?v=4" alt="user" />
             <div className="w-full divide-y divide-gray-200">
                 <div className="">
-                    <textarea className="resize-none overflow-hidden w-full border-none focus:ring-0 text-lg placeholder-gray-700 tracking-wide min-h-[50px] text-grey-700" rows="2" placeholder="What's happening?"></textarea>
+                    <textarea className="resize-none overflow-hidden w-full border-none focus:ring-0 text-lg placeholder-gray-700 tracking-wide min-h-[50px] text-grey-700" rows="2" placeholder='What&lsquo;s happening?'></textarea>
                 </div>
                 <div className="flex items-center justify-between pt-2.5">
                     <div className="flex">
