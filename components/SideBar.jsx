@@ -18,6 +18,7 @@ function SideBar() {
                     src='https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png'
                     height={50}
                     width={50}
+                    alt='logo'
                 />
             </div>
             <div className="mt-4 mb-2.5 xl:items-start">
